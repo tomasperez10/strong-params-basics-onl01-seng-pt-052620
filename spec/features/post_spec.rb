@@ -38,7 +38,7 @@ describe 'form' do
 
     visit edit_post_path(@post)
 
-    fill_in 'title', with: "My edit"
+    fill_in 'post[title]', with: "My edit"
 
     click_on "Update Post"
 
